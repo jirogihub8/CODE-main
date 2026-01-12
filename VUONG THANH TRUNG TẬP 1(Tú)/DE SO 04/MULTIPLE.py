@@ -1,0 +1,7 @@
+f=open("multiple.inp")
+f1=open("multiple.out","w")
+n,q=map(int,f.readline().split())
+result=(1-q**n)//(1-q)
+print(result)
+f.close()
+f1.close()

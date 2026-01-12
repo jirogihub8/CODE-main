@@ -1,0 +1,8 @@
+f=open("robot.inp")
+f1=open("robot.out","w")
+x1,y1=map(int,f.readline().split())
+x2,y2=map(int,f.readline().split())
+result=max(abs(x1-x2),abs(y1-y2))
+f1.write(str(result))
+f.close()
+f1.close()
